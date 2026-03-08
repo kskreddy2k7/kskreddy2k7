@@ -1,16 +1,20 @@
-## Hi there 👋
+# Hi, I'm Kata Sai Kranthu Reddy 👋
 
-<!--
-**kskreddy2k7/kskreddy2k7** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+AI Developer | Machine Learning Enthusiast  
+B.Tech CSE (AI & ML) @ SRMIST
 
-Here are some ideas to get you started:
+## 🌐 Portfolio
+https://kskreddy2k7.github.io/kranthu-ai-portfolio/
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🚀 Featured Projects
+- AI Resume Screening System  
+- Smart AutoCorrect Keyboard  
+- Quiz AI App  
+- AI Developer Portfolio  
+
+## 🛠 Skills
+Python • Machine Learning • NLP • Java • JavaScript • HTML • CSS • Git
+
+## 📫 Contact
+GitHub: https://github.com/kskreddy2k7  
+LinkedIn: https://www.linkedin.com/in/kata-sai-kranthu-reddy-b02848377
