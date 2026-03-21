@@ -90,12 +90,14 @@
 ## 📊 GitHub Analytics
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=kskreddy2k7&show_icons=true&theme=tokyonight&hide_border=true" />
-  <br/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=kskreddy2k7&theme=tokyonight&hide_border=true" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=kskreddy2k7&show_icons=true&theme=tokyonight&hide_border=true&border_radius=12" />
+  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=kskreddy2k7&theme=tokyonight&hide_border=true&border_radius=12" />
 </p>
 
----
+<p align="center">
+  <img width="60%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kskreddy2k7&layout=compact&theme=tokyonight&hide_border=true&border_radius=12" />
+</p>
+
 
 <!-- ================= GRAPH ================= -->
 
