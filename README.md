@@ -3,7 +3,7 @@
 <h1 align="center">Hi 👋, I'm Kata Sai Kranthu Reddy</h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?size=32&duration=3000&color=00F7FF&center=true&vCenter=true&width=800&lines=AI+Developer;Full+Stack+Engineer;Building+Real-World+Projects;Future+Tech+Innovator" />
+  <img src="https://readme-typing-svg.herokuapp.com?size=30&duration=3000&color=00F7FF&center=true&vCenter=true&width=700&lines=AI+Developer;Machine+Learning+Enthusiast;Building+Real-World+Projects" />
 </p>
 
 <p align="center">
@@ -16,21 +16,10 @@
 
 ## 🚀 About Me
 
-* 🤖 AI Developer | Full Stack Engineer
-* 💻 Building real-world AI-powered applications
-* 🚀 Focused on solving real problems with technology
-* 🎯 Goal: Become a top-tier software engineer
-
----
-
-<!-- ================= IMPACT ================= -->
-
-## 💼 Real-World Impact
-
-✔ Built AI Resume Screening System
-✔ Developed real business website (Sri Sai Traders)
-✔ Created multiple AI-powered applications
-✔ Designed modern interactive portfolio
+* 🤖 AI & Machine Learning Enthusiast
+* 💻 Web Developer (Frontend + Basics of Backend)
+* 🚀 Building real-world projects to solve problems
+* 📈 Consistently improving through hands-on development
 
 ---
 
@@ -48,30 +37,30 @@
 
 ### 🔥 AI Resume Screening System
 
-👉 AI-based candidate filtering using NLP
+👉 An AI-based system that helps filter and analyze resumes
 
 ### ⚡ Smart AutoCorrect Keyboard
 
-👉 Real-time intelligent typing correction
+👉 Intelligent typing correction using ML concepts
 
 ### 🧠 Quiz AI App
 
-👉 AI-generated quizzes with dynamic logic
+👉 AI-powered quiz generation and interaction
 
-### 🌐 AI Developer Portfolio
+### 🌐 Developer Portfolio Website
 
-👉 Interactive modern portfolio with animations
+👉 Personal portfolio showcasing projects and skills
 
 ---
 
-<!-- ================= DEMOS ================= -->
+<!-- ================= HIGHLIGHT ================= -->
 
-## 🎥 Project Highlights
+## 💼 What I Focus On
 
-<p align="center">
-  <img src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif" width="300" />
-  <img src="https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif" width="300" />
-</p>
+✔ Building practical AI-based applications
+✔ Improving problem-solving skills
+✔ Creating user-friendly web interfaces
+✔ Learning modern development tools
 
 ---
 
@@ -80,7 +69,7 @@
 ## 🛠 Tech Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,java,javascript,html,css,react,git,github,vscode&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=python,java,javascript,html,css,git,github,vscode&theme=dark" />
 </p>
 
 ---
@@ -95,9 +84,10 @@
 </p>
 
 <p align="center">
-  <img width="55%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kskreddy2k7&layout=compact&theme=tokyonight&hide_border=true&border_radius=12&langs_count=6" />
+  <img width="55%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kskreddy2k7&layout=compact&theme=tokyonight&hide_border=true&border_radius=12" />
 </p>
 
+---
 
 <!-- ================= GRAPH ================= -->
 
@@ -109,40 +99,29 @@
 
 ---
 
-<!-- ================= TROPHIES ================= -->
-
-## 🏆 Achievements
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=kskreddy2k7&theme=algolia&no-frame=true&margin-w=10" />
-</p>
-
----
-
 <!-- ================= CONTACT ================= -->
 
-## 🤝 Connect With Me
+## 📫 Contact
 
 * 💼 LinkedIn: https://www.linkedin.com/in/kata-sai-kranthu-reddy-b02848377
-* 🌐 Portfolio: https://kskreddy2k7.github.io/kranthu-ai-portfolio/
 
 ---
 
-<!-- ================= FOCUS ================= -->
+<!-- ================= GOAL ================= -->
 
-## 🔥 Current Focus
+## 🎯 Current Goal
 
-🚀 AI-powered applications
-📊 Real-world problem solving
-⚡ Performance & scalability
+🚀 Build advanced AI projects
+📊 Improve real-world application development
+💼 Prepare for internships / opportunities
 
 ---
 
 <!-- ================= QUOTE ================= -->
 
-## 💬 Developer Mindset
+## 💬 Mindset
 
-> “I don’t just write code — I build solutions that create impact.”
+> “Learning by building. Growing by solving real problems.”
 
 ---
 
