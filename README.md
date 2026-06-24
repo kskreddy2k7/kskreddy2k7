@@ -1,134 +1,55 @@
-# Hi 👋, I'm Kata Sai Kranthu Reddy
+# Hi, I'm Kata Sai Kranthu Reddy 👋
 
-<p align="center">
-🚀 AI & Machine Learning Student | Building Real-World Projects
-</p>
+AI & Machine Learning Student passionate about building practical software and AI-powered applications.
 
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?size=28&duration=3000&color=00F7FF&center=true&vCenter=true&width=750&lines=AI+%26+ML+Student;Building+Real-World+Projects;Python+Developer;Open+to+Internships" />
-</p>
+* 🎓 B.Tech AI & ML Student
+* 💻 Interested in Machine Learning, Software Development, and AI Applications
+* 🌱 Currently learning Data Science, Machine Learning, and Full-Stack Development
+* 🚀 Open to internships, collaborations, and project opportunities
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=kskreddy2k7&label=Profile%20Views&color=0e75b6&style=flat" />
-</p>
+## Projects
 
----
+### AI Resume Screening System
 
-## 🚀 About Me
+Machine learning-based system for analyzing and ranking resumes using NLP techniques.
 
-🎓 B.Tech AI & Machine Learning Student
+### Sri Sai Traders Website
 
-💡 Passionate about building practical software and AI-powered solutions
+Business website developed for a real local store with product showcase and customer engagement features.
 
-🔨 I enjoy turning ideas into working applications and continuously improving them
+### Builderestate
 
-🌱 Currently learning Machine Learning, Data Science, Web Development, and Software Engineering
+Real estate platform prototype focused on responsive design and user experience.
 
----
+### i2flow
 
-## 🏆 Featured Projects
+Platform for sharing AI resources, projects, and learning content for students.
 
-### 🤖 AI Resume Screening System
+### Portfolio Website
 
-* Machine Learning based resume analysis system
-* Helps evaluate and rank resumes
-* Built using Python, Machine Learning, and NLP concepts
+Personal portfolio showcasing projects, skills, and technical work.
 
-### 🛒 Sri Sai Traders Website
+## Tech Stack
 
-* Business website developed for a real local store
-* Product showcase and customer engagement platform
-* Built using HTML, CSS, JavaScript
-
-### 🏗 Builderestate
-
-* Real estate platform prototype
-* Modern UI with responsive design
-* Focused on user experience and project presentation
-
-### 🌐 Personal Portfolio Website
-
-* Showcases projects, skills, and achievements
-* Designed as a professional developer portfolio
-
-### 📄 EvoDoc Flow
-
-* Document workflow and management project
-* Contributed during project development experience
-
----
-
-## 🛠 Tech Stack
-
-### Languages
-
+**Languages**
 Python • Java • JavaScript • HTML • CSS
 
-### Tools
-
+**Tools**
 Git • GitHub • VS Code
 
-### Learning
+**Areas of Interest**
+Machine Learning • Artificial Intelligence • Data Science • Web Development
 
-Machine Learning • Data Analysis • AI Applications
+## Connect
 
----
+LinkedIn: https://www.linkedin.com/in/kata-sai-kranthu-reddy-b02848377
 
-## 📈 Current Focus
+Portfolio: https://kskreddy2k7.github.io/kranthu-ai-portfolio/
 
-* Building stronger AI & ML projects
-* Improving software development skills
-* Contributing to real-world applications
-* Preparing for internships and industry opportunities
+i2flow: https://kskreddy2k7.github.io/i2flow/
 
 ---
-
-## 🌐 Portfolio
-
-https://kskreddy2k7.github.io/kranthu-ai-portfolio/
-
----
-
-## 📊 GitHub Stats
 
 <p align="center">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=kskreddy2k7&show_icons=true&theme=tokyonight&hide_border=true" />
-  <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=kskreddy2k7&theme=tokyonight&hide_border=true" />
+  <img src="https://github-readme-stats.vercel.app/api?username=kskreddy2k7&show_icons=true&theme=default&hide_border=true" />
 </p>
-
-<p align="center">
-  <img width="55%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kskreddy2k7&layout=compact&theme=tokyonight&hide_border=true" />
-</p>
-
----
-
-## 📈 Contribution Graph
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=kskreddy2k7&theme=tokyo-night" />
-</p>
-
----
-
-## 📫 Connect With Me
-
-💼 LinkedIn:
-https://www.linkedin.com/in/kata-sai-kranthu-reddy-b02848377
-
-🌐 Portfolio:
-https://kskreddy2k7.github.io/kranthu-ai-portfolio/
-
-📧 Open to internships, collaborations, and project opportunities.
-
----
-
-## 🎯 2026 Goals
-
-* Build impactful AI projects
-* Strengthen Machine Learning skills
-* Gain internship experience
-* Contribute to real-world solutions
-
----
-
-> "Every project is an opportunity to learn, improve, and create value."
