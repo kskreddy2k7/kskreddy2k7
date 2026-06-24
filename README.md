@@ -1,13 +1,11 @@
-<!-- ================= HERO ================= -->
-
-<h1 align="center">Hi 👋, I'm Kata Sai Kranthu Reddy</h1>
+# Hi 👋, I'm Kata Sai Kranthu Reddy
 
 <p align="center">
-  🚀 AI Developer | Building Real-World Intelligent Systems
+🚀 AI & Machine Learning Student | Building Real-World Projects
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?size=28&duration=3000&color=00F7FF&center=true&vCenter=true&width=750&lines=AI+Developer;Machine+Learning+Engineer;Building+Real-World+Projects;Open+to+Opportunities" />
+  <img src="https://readme-typing-svg.herokuapp.com?size=28&duration=3000&color=00F7FF&center=true&vCenter=true&width=750&lines=AI+%26+ML+Student;Building+Real-World+Projects;Python+Developer;Open+to+Internships" />
 </p>
 
 <p align="center">
@@ -16,118 +14,95 @@
 
 ---
 
-<!-- ================= ABOUT ================= -->
-
 ## 🚀 About Me
 
-💡 I build **AI-powered applications** that solve real-world problems
+🎓 B.Tech AI & Machine Learning Student
 
-* 🤖 Focused on Artificial Intelligence & Machine Learning
-* 💻 Full-stack basics (Frontend + Backend integration)
-* 🚀 Turning ideas into working products
-* 📈 Continuously improving through real projects
+💡 Passionate about building practical software and AI-powered solutions
 
----
+🔨 I enjoy turning ideas into working applications and continuously improving them
 
-<!-- ================= VALUE ================= -->
-
-## 🔥 What Makes Me Different
-
-✔ I don’t just learn — I **build real solutions**
-✔ I focus on **practical AI applications**
-✔ I aim to create **startup-level projects**
-✔ I design projects that can **scale & solve real problems**
+🌱 Currently learning Machine Learning, Data Science, Web Development, and Software Engineering
 
 ---
 
-<!-- ================= PROJECTS ================= -->
-
-## 🚀 Featured Projects
+## 🏆 Featured Projects
 
 ### 🤖 AI Resume Screening System
 
-👉 AI model that analyzes and ranks resumes
-👉 Helps recruiters shortlist candidates faster
-👉 Tech: Python, ML, NLP
+* Machine Learning based resume analysis system
+* Helps evaluate and rank resumes
+* Built using Python, Machine Learning, and NLP concepts
+
+### 🛒 Sri Sai Traders Website
+
+* Business website developed for a real local store
+* Product showcase and customer engagement platform
+* Built using HTML, CSS, JavaScript
+
+### 🏗 Builderestate
+
+* Real estate platform prototype
+* Modern UI with responsive design
+* Focused on user experience and project presentation
+
+### 🌐 Personal Portfolio Website
+
+* Showcases projects, skills, and achievements
+* Designed as a professional developer portfolio
+
+### 📄 EvoDoc Flow
+
+* Document workflow and management project
+* Contributed during project development experience
 
 ---
-
-### 📱 Sambhasha AI App
-
-👉 Chat + Calling + Privacy-focused system
-👉 Future-ready communication platform
-👉 Real-time interaction system
-
----
-
-### 🛒 Smart Grocery Ordering System
-
-👉 WhatsApp-based automation ordering
-👉 Built for real-world shop use
-👉 Simple + scalable solution
-
----
-
-### 🧠 Quiz AI App
-
-👉 AI-generated quizzes & interactions
-👉 Engaging learning experience
-
----
-
-### 🌐 Developer Portfolio Website
-
-👉 Personal brand + project showcase
-👉 Clean and modern UI
-
----
-
-<!-- ================= TECH ================= -->
 
 ## 🛠 Tech Stack
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,java,javascript,html,css,git,github,vscode&theme=dark" />
-</p>
+### Languages
+
+Python • Java • JavaScript • HTML • CSS
+
+### Tools
+
+Git • GitHub • VS Code
+
+### Learning
+
+Machine Learning • Data Analysis • AI Applications
 
 ---
 
-<!-- ================= LEARNING ================= -->
+## 📈 Current Focus
 
-## 📈 Currently Learning
-
-* Advanced AI Systems 🤖
-* Real-time Applications ⚡
-* Scalable Product Development 🚀
+* Building stronger AI & ML projects
+* Improving software development skills
+* Contributing to real-world applications
+* Preparing for internships and industry opportunities
 
 ---
-
-<!-- ================= PORTFOLIO ================= -->
 
 ## 🌐 Portfolio
 
-🔗 https://kskreddy2k7.github.io/kranthu-ai-portfolio/
+https://kskreddy2k7.github.io/kranthu-ai-portfolio/
 
 ---
 
-<!-- ================= STATS ================= -->
-
-## 📊 GitHub Analytics
+## 📊 GitHub Stats
 
 <p align="center">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=kskreddy2k7&show_icons=true&theme=tokyonight&hide_border=true&border_radius=12&include_all_commits=true&count_private=true" />
-  <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=kskreddy2k7&theme=tokyonight&hide_border=true&border_radius=12" />
+  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=kskreddy2k7&show_icons=true&theme=tokyonight&hide_border=true" />
+  <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=kskreddy2k7&theme=tokyonight&hide_border=true" />
 </p>
 
 <p align="center">
-  <img width="55%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kskreddy2k7&layout=compact&theme=tokyonight&hide_border=true&border_radius=12" />
+  <img width="55%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kskreddy2k7&layout=compact&theme=tokyonight&hide_border=true" />
 </p>
 
 ---
 
-<!-- ================= GRAPH ================= -->
-
-## 📈 Contribution Activity
+## 📈 Contribution Graph
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=kskreddy2k7&theme=tokyo-night" />
@@ -135,39 +110,25 @@
 
 ---
 
-<!-- ================= CONTACT ================= -->
+## 📫 Connect With Me
 
-## 📫 Contact
+💼 LinkedIn:
+https://www.linkedin.com/in/kata-sai-kranthu-reddy-b02848377
 
-* 💼 LinkedIn: https://www.linkedin.com/in/kata-sai-kranthu-reddy-b02848377
-* 📧 Open to collaborations & opportunities
+🌐 Portfolio:
+https://kskreddy2k7.github.io/kranthu-ai-portfolio/
 
----
-
-<!-- ================= GOAL ================= -->
-
-## 🎯 Current Goal
-
-🚀 Build impactful AI products
-💼 Get internships / freelance clients
-📊 Solve real-world problems using AI
+📧 Open to internships, collaborations, and project opportunities.
 
 ---
 
-<!-- ================= CTA ================= -->
+## 🎯 2026 Goals
 
-## ⚡ Let's Build Something Amazing
-
-💬 If you have an idea, project, or opportunity — let's connect!
-
----
-
-<!-- ================= QUOTE ================= -->
-
-## 💬 Mindset
-
-> “I don’t just code projects — I build solutions that matter.”
+* Build impactful AI projects
+* Strengthen Machine Learning skills
+* Gain internship experience
+* Contribute to real-world solutions
 
 ---
 
-⭐ If you like my work, consider giving a ⭐ to my repositories!
+> "Every project is an opportunity to learn, improve, and create value."
