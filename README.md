@@ -1,112 +1,146 @@
-# <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="32"> Hey, I'm Kata Sai Kranthu Reddy
-
 <div align="center">
+
+# 👋 Hey, I'm Kata Sai Kranthu Reddy
 
 ### AI Engineer • Full-Stack Developer • Founder of i2flow
 
-Building intelligent software that solves real-world problems through AI, modern web technologies, and automation.
-
-<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=24&pause=2000&color=2563EB&center=true&vCenter=true&width=700&lines=Building+AI+Applications;Machine+Learning+Enthusiast;Full-Stack+Developer;Always+Learning+Something+New" />
+<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=26&duration=3000&pause=1200&center=true&vCenter=true&width=800&lines=Building+AI+Products;AI+%26+Machine+Learning+Student;Full-Stack+Developer;Founder+of+i2flow;Always+Building+Something+Awesome" />
 
 <p>
 <a href="https://www.linkedin.com/in/kata-sai-kranthu-reddy-b02848377">
 <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
 
-<a href="https://kskreddy2k7.github.io/kranthu-ai-portfolio/">
+<a href="https://kskreddy2k7.github.io/kskreddy/">
 <img src="https://img.shields.io/badge/Portfolio-111111?style=for-the-badge&logo=vercel&logoColor=white"/>
 </a>
 
 <a href="https://kskreddy2k7.github.io/i2flow/">
-<img src="https://img.shields.io/badge/i2flow-2563EB?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/i2flow-FF7A00?style=for-the-badge"/>
 </a>
+
 </p>
 
 </div>
 
 ---
 
-# About Me
+# 🚀 About Me
 
-I'm a B.Tech Artificial Intelligence & Machine Learning student passionate about building practical software powered by AI.
+```yaml
+Name: Kata Sai Kranthu Reddy
 
-Instead of only learning theory, I enjoy turning ideas into products—from business websites to machine learning systems and AI-powered platforms.
+Education:
+B.Tech Artificial Intelligence & Machine Learning
 
-Current focus:
+Role:
+AI Developer
+Full-Stack Developer
 
-* Machine Learning
-* Full-Stack Development
-* AI Automation
-* Product Development
-* Open Source
+Founder:
+i2flow
 
----
+Currently Building:
+- AI Products
+- Intelligent Web Applications
+- Developer Tools
+- Machine Learning Projects
 
-# Featured Projects
-
-## AI Resume Screening System
-
-AI-powered resume analyser using NLP and Machine Learning for candidate ranking.
-
-**Tech**
-Python • Scikit-learn • NLP • HTML • CSS
-
----
-
-## Sri Sai Traders
-
-A complete digital presence for a real local business including responsive design and customer engagement.
-
-**Tech**
-HTML • CSS • JavaScript
+Goal:
+Build software that creates real-world impact.
+```
 
 ---
 
-## Builderestate
+# 🌅 Featured Projects
 
-Modern real estate platform focused on clean UI, responsive experience and scalable architecture.
+## 🤖 AI Resume Screening System
 
----
+> Machine Learning based resume analysis and candidate ranking using NLP.
 
-## i2flow
+**Tech Stack**
 
-My personal initiative to help students learn AI, discover projects and build practical skills.
+`Python` `Machine Learning` `NLP` `Scikit-Learn`
 
----
-
-## Portfolio
-
-A cinematic developer portfolio showcasing my journey, projects and technical skills.
+🔗 Repository:
+https://github.com/kskreddy2k7/ai-resume-screening-system
 
 ---
 
-# Tech Stack
+## 🚀 i2flow
+
+A platform for AI projects, learning resources, roadmaps, internships and developer content.
+
+🌐 Live
+
+https://kskreddy2k7.github.io/i2flow/
+
+---
+
+## 📄 EvoDoc Flow
+
+Smart AI-powered document workflow platform focused on productivity and automation.
+
+---
+
+## 🏠 Builderestate
+
+Modern responsive real estate platform with premium UI/UX.
+
+---
+
+## 🏪 Sri Sai Traders
+
+Business website developed for a real local business showcasing products and customer engagement.
+
+---
+
+## 🍽 Nizam's Royal Restaurant
+
+Luxury restaurant website with modern animations, premium UI and responsive design.
+
+---
+
+## 🌌 3D Portfolio
+
+Premium animated portfolio inspired by cinematic web experiences.
+
+🌐 Live
+
+https://kskreddy2k7.github.io/kskreddy/
+
+---
+
+# 💻 Tech Stack
 
 ### Languages
 
 <p>
-<img src="https://skillicons.dev/icons?i=python,java,js,html,css"/>
+
+<img src="https://skillicons.dev/icons?i=python,java,js,ts,html,css"/>
+
 </p>
 
 ### Frameworks & Tools
 
 <p>
-<img src="https://skillicons.dev/icons?i=git,github,vscode"/>
+
+<img src="https://skillicons.dev/icons?i=react,nodejs,git,github,vscode,figma"/>
+
 </p>
 
+### Interests
+
+- Artificial Intelligence
+- Machine Learning
+- Data Science
+- Full Stack Development
+- UI / UX
+- Automation
+
 ---
 
-# Currently Learning
-
-* Machine Learning
-* Data Science
-* Artificial Intelligence
-* React
-* Backend Development
-
----
-
-# GitHub Analytics
+# 📈 GitHub Analytics
 
 <p align="center">
 
@@ -124,7 +158,7 @@ A cinematic developer portfolio showcasing my journey, projects and technical sk
 
 ---
 
-# Contribution Graph
+# 📊 Contribution Graph
 
 <p align="center">
 
@@ -134,23 +168,54 @@ A cinematic developer portfolio showcasing my journey, projects and technical sk
 
 ---
 
-# Let's Connect
+# 🏆 GitHub Trophies
 
-💼 LinkedIn
-https://www.linkedin.com/in/kata-sai-kranthu-reddy-b02848377
+<p align="center">
 
-🌐 Portfolio
+<img src="https://github-profile-trophy.vercel.app/?username=kskreddy2k7&margin-w=15&margin-h=15"/>
+
+</p>
+
+---
+
+# 📌 Current Focus
+
+✅ Building AI Products
+
+✅ Open Source
+
+✅ Full-Stack Development
+
+✅ Machine Learning
+
+✅ Real Client Projects
+
+✅ Growing i2flow
+
+---
+
+# 🌍 Connect
+
+### 🌐 Portfolio
+
 https://kskreddy2k7.github.io/kskreddy/
 
-🚀 i2flow
+### 🚀 i2flow
+
 https://kskreddy2k7.github.io/i2flow/
+
+### 💼 LinkedIn
+
+https://www.linkedin.com/in/kata-sai-kranthu-reddy-b02848377
 
 ---
 
 <div align="center">
 
-### "Keep Building. Keep Learning. Keep Shipping."
+## ⭐ "Build. Learn. Ship. Repeat."
 
-⭐ Thanks for visiting my profile.
+### Thanks for visiting my profile!
+
+<img src="https://komarev.com/ghpvc/?username=kskreddy2k7&style=for-the-badge"/>
 
 </div>
