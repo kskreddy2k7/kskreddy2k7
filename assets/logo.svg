@@ -1,0 +1,194 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <!-- Carbon Fiber Pattern -->
+    <pattern id="carbon" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#111317" />
+      <rect width="5" height="5" fill="#171A21" />
+      <rect x="5" y="5" width="5" height="5" fill="#0D0E11" />
+    </pattern>
+
+    <!-- Metallic Copper Gradients (Multi-stop for 3D chrome effect) -->
+    <linearGradient id="metalCopper" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8A4F2A"/>
+      <stop offset="25%" stop-color="#EAA375"/>
+      <stop offset="50%" stop-color="#5C2E16"/>
+      <stop offset="75%" stop-color="#F2B895"/>
+      <stop offset="100%" stop-color="#3E1A08"/>
+    </linearGradient>
+
+    <linearGradient id="copperLight" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#EAA375"/>
+      <stop offset="50%" stop-color="#FFF3E3"/>
+      <stop offset="100%" stop-color="#8A4F2A"/>
+    </linearGradient>
+
+    <!-- Red-Orange Gradient (for the 'i' body and bottom wave) -->
+    <linearGradient id="redOrangeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D82A2A"/>
+      <stop offset="40%" stop-color="#FF5722"/>
+      <stop offset="80%" stop-color="#FF9800"/>
+      <stop offset="100%" stop-color="#EAA375"/>
+    </linearGradient>
+
+    <!-- Silver/Chrome Gradient (for the superscript '2') -->
+    <linearGradient id="chromeSilver" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="30%" stop-color="#B0B5BC"/>
+      <stop offset="50%" stop-color="#E5E7EB"/>
+      <stop offset="70%" stop-color="#6B7280"/>
+      <stop offset="100%" stop-color="#D1D5DB"/>
+    </linearGradient>
+
+    <!-- Dark Vignette for Inside Circle -->
+    <radialGradient id="innerVignette" cx="50%" cy="50%" r="50%">
+      <stop offset="60%" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.85"/>
+    </radialGradient>
+
+    <!-- Glow Filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <!-- Drop Shadow Filter -->
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="4" dy="8" stdDeviation="6" flood-color="#000000" flood-opacity="0.8" />
+    </filter>
+  </defs>
+
+  <style>
+    .glow-node {
+      animation: pulseNode 3s ease-in-out infinite alternate;
+    }
+    @keyframes pulseNode {
+      0% { opacity: 0.6; filter: drop-shadow(0 0 2px #FF8A00); }
+      100% { opacity: 1; filter: drop-shadow(0 0 8px #FF5722); }
+    }
+    .flare-star {
+      transform-origin: 395px 125px;
+      animation: rotateFlare 20s linear infinite;
+    }
+    @keyframes rotateFlare {
+      100% { transform: rotate(360deg); }
+    }
+  </style>
+
+  <!-- Base Ambient Outer Shadow -->
+  <circle cx="256" cy="256" r="230" fill="none" stroke="#000000" stroke-width="12" filter="url(#shadow)" opacity="0.9" />
+
+  <!-- Outer Ring (Double Layer for 3D Depth) -->
+  <circle cx="256" cy="256" r="220" fill="none" stroke="url(#metalCopper)" stroke-width="12" />
+  <circle cx="256" cy="256" r="214" fill="none" stroke="#FFFFFF" stroke-opacity="0.1" stroke-width="1" />
+
+  <!-- Inner Plate (Carbon Fiber Texture) -->
+  <circle cx="256" cy="256" r="214" fill="url(#carbon)" />
+  <circle cx="256" cy="256" r="214" fill="url(#innerVignette)" />
+
+  <!-- ================= MONOGRAM SYSTEM ================= -->
+  
+  <!-- Circuit Pod (Right Side Base) -->
+  <g filter="url(#shadow)">
+    <!-- Circuit Base Plate (Semi-translucent dark graphite shape) -->
+    <path d="M 310 270 C 310 230, 360 215, 395 215 C 430 215, 465 240, 465 280 C 465 320, 430 350, 380 350 C 330 350, 310 310, 310 270 Z" 
+          fill="#181A21" stroke="url(#metalCopper)" stroke-width="2.5" />
+    
+    <!-- Circuit Trace Lines -->
+    <g stroke="url(#metalCopper)" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <!-- Trace 1 (Top) -->
+      <path d="M 345 260 L 375 260 L 390 245 L 435 245" />
+      <!-- Trace 2 (Middle) -->
+      <path d="M 350 278 L 385 278 L 400 293 L 425 293 L 435 283 L 450 283" />
+      <!-- Trace 3 (Lower) -->
+      <path d="M 340 300 L 370 300 L 385 315 L 440 315" />
+      <!-- Trace 4 (Bottom) -->
+      <path d="M 345 322 L 360 322 L 370 332 L 415 332" />
+    </g>
+
+    <!-- Circuit Nodes (Copper/Gold pads) -->
+    <g fill="url(#metalCopper)">
+      <!-- Terminating Nodes -->
+      <circle cx="435" cy="245" r="4.5" class="glow-node" />
+      <circle cx="450" cy="283" r="4.5" class="glow-node" />
+      <circle cx="440" cy="315" r="4.5" class="glow-node" />
+      <circle cx="415" cy="332" r="4.5" class="glow-node" />
+      
+      <!-- Branching Squares -->
+      <rect x="365" y="240" width="6" height="6" rx="1" />
+      <rect x="390" y="275" width="6" height="6" rx="1" />
+      <rect x="375" y="312" width="6" height="6" rx="1" />
+      <rect x="350" y="297" width="5" height="5" rx="1" />
+    </g>
+  </g>
+
+  <!-- Dual Pillar Stem (Rotated rounded rects for slanted 3D design) -->
+  <g filter="url(#shadow)">
+    <!-- Slanted Red-Orange Pillar (Left) -->
+    <rect x="156" y="195" width="38" height="175" rx="19" transform="rotate(32 175 282)" fill="url(#redOrangeGrad)" />
+    <!-- Highlight Overlay on Red-Orange Pillar -->
+    <rect x="159" y="198" width="8" height="169" rx="4" transform="rotate(32 175 282)" fill="#FFFFFF" opacity="0.15" />
+
+    <!-- Slanted Copper Pillar (Right, overlapping slightly) -->
+    <rect x="188" y="195" width="38" height="175" rx="19" transform="rotate(32 207 282)" fill="url(#metalCopper)" />
+    <!-- Highlight Overlay on Copper Pillar -->
+    <rect x="191" y="198" width="8" height="169" rx="4" transform="rotate(32 207 282)" fill="#FFFFFF" opacity="0.2" />
+  </g>
+
+  <!-- The "i" Dot (Metallic Copper Sphere) -->
+  <g filter="url(#shadow)">
+    <circle cx="162" cy="158" r="21" fill="url(#metalCopper)" />
+    <!-- Inner Sphere Glow -->
+    <circle cx="162" cy="158" r="21" fill="url(#copperLight)" opacity="0.3" />
+    <!-- Highlight Curve -->
+    <ellipse cx="154" cy="150" rx="7" ry="4" fill="#FFFFFF" opacity="0.5" transform="rotate(-30 154 150)" />
+  </g>
+
+  <!-- Superscript "2" (3D Chrome/Silver) -->
+  <g filter="url(#shadow)">
+    <!-- Base 3D Shadow/Bevel -->
+    <path d="M 200 132 C 200 112, 232 112, 232 127 C 232 142, 207 157, 202 167 L 237 167 L 237 175 L 198 175 L 198 167 C 208 155, 224 143, 224 131 C 224 123, 210 123, 210 131 Z" 
+          fill="#1E2026" />
+    <!-- Main Silver Body -->
+    <path d="M 198 130 C 198 110, 230 110, 230 125 C 230 140, 205 155, 200 165 L 235 165 L 235 172 L 196 172 L 196 165 C 206 153, 222 141, 222 129 C 222 121, 208 121, 208 129 Z" 
+          fill="url(#chromeSilver)" />
+  </g>
+
+  <!-- "F" Horizontal Arms (Copper sweep and middle bar) -->
+  <g filter="url(#shadow)">
+    <!-- Top Arm (Sweeps out of the copper stem and curves) -->
+    <path d="M 233 218 C 248 190, 275 180, 310 180 L 360 180 C 370 180, 370 196, 360 196 L 310 196 C 285 196, 268 206, 255 228 Z" 
+          fill="url(#metalCopper)" />
+    <!-- Top Arm Highlight -->
+    <path d="M 235 215 C 248 192, 275 182, 310 182 L 360 182" fill="none" stroke="#FFFFFF" stroke-opacity="0.3" stroke-width="1.5" stroke-linecap="round" />
+
+    <!-- Middle Arm (Slanted/Flat branch) -->
+    <path d="M 252 258 L 320 258 C 328 258, 328 272, 320 272 L 243 272 Z" 
+          fill="url(#metalCopper)" />
+  </g>
+
+  <!-- Bottom Red-Orange Flow Wave (Sweeping ribbon under the monogram) -->
+  <g filter="url(#shadow)">
+    <!-- Main Wave Ribbon -->
+    <path d="M 148 335 C 190 380, 235 390, 275 320 C 310 260, 350 250, 400 265 C 410 268, 410 284, 400 281 C 360 269, 325 279, 292 335 C 250 405, 195 395, 148 335 Z" 
+          fill="url(#redOrangeGrad)" />
+    <!-- Wave Highlight Line -->
+    <path d="M 152 338 C 193 378, 235 385, 273 323 C 308 263, 348 253, 398 267" 
+          fill="none" stroke="#FFFFFF" stroke-opacity="0.3" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+
+  <!-- ================= SUNBURST FLARE (Top Right) ================= -->
+  <!-- Radial Core Glow -->
+  <circle cx="395" cy="125" r="40" fill="#FF8A00" opacity="0.35" filter="url(#glow)" />
+  <circle cx="395" cy="125" r="15" fill="#FFFFFF" opacity="0.8" filter="url(#glow)" />
+  
+  <!-- Rotating Starburst Rays -->
+  <g class="flare-star">
+    <!-- Star core lines -->
+    <path d="M 395 85 L 395 165 M 355 125 L 435 125" stroke="#FFFFFF" stroke-width="2.5" opacity="0.8" filter="url(#glow)" />
+    <!-- Diagonal lines -->
+    <path d="M 367 97 L 423 153 M 367 153 L 423 97" stroke="#FFD54F" stroke-width="1.2" opacity="0.6" />
+  </g>
+</svg>

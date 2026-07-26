@@ -1,0 +1,208 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 680" width="100%" height="100%">
+  <defs>
+    <!-- Fonts -->
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&amp;family=JetBrains+Mono:wght@400;700&amp;display=swap');
+      
+      .timeline-year {
+        font-family: 'JetBrains Mono', monospace;
+        font-weight: 700;
+        font-size: 16px;
+        fill: #FF5722;
+      }
+      .timeline-title {
+        font-family: 'Inter', sans-serif;
+        font-weight: 800;
+        font-size: 16px;
+        fill: #FFFFFF;
+      }
+      .timeline-desc {
+        font-family: 'Inter', sans-serif;
+        font-size: 13px;
+        fill: #9CA3AF;
+      }
+      .timeline-tag {
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 9px;
+        fill: #FCD34D;
+        font-weight: bold;
+        letter-spacing: 0.1em;
+      }
+      
+      /* Hover glow effects or pulse */
+      @keyframes pulseNode {
+        0% { r: 6; opacity: 1; }
+        50% { r: 12; opacity: 0.4; }
+        100% { r: 6; opacity: 1; }
+      }
+      .glowing-node {
+        animation: pulseNode 3s infinite;
+        transform-origin: center;
+      }
+    </style>
+
+    <!-- Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0E1015"/>
+      <stop offset="100%" stop-color="#090A0C"/>
+    </linearGradient>
+
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FF5722"/>
+      <stop offset="50%" stop-color="#FCD34D"/>
+      <stop offset="85%" stop-color="#10B981"/>
+      <stop offset="100%" stop-color="#2E3039" stop-opacity="0.1"/>
+    </linearGradient>
+
+    <linearGradient id="orangeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF5722"/>
+      <stop offset="100%" stop-color="#FCD34D"/>
+    </linearGradient>
+    
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.04"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.01"/>
+    </linearGradient>
+    
+    <linearGradient id="cardBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.02"/>
+    </linearGradient>
+
+    <!-- Glow Filter -->
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background base -->
+  <rect width="800" height="680" rx="20" fill="url(#bgGrad)" stroke="#2E3039" stroke-width="1.5" />
+
+  <!-- Center vertical connecting line -->
+  <line x1="400" y1="50" x2="400" y2="630" stroke="url(#lineGrad)" stroke-width="3" stroke-linecap="round" />
+
+  <!-- ================= MILESTONE 1: 2025 Started Programming ================= -->
+  <g transform="translate(0, 50)">
+    <!-- Central Node -->
+    <circle cx="400" cy="30" r="10" fill="#0D0E11" stroke="#FF5722" stroke-width="3" />
+    <circle cx="400" cy="30" r="4" fill="#FF5722" />
+    
+    <!-- Left Card -->
+    <g transform="translate(60, 0)">
+      <rect width="300" height="70" rx="8" fill="url(#cardGrad)" stroke="url(#cardBorder)" stroke-width="1" />
+      <!-- Indicator tag -->
+      <text x="20" y="25" class="timeline-year">2025</text>
+      <text x="20" y="48" class="timeline-title">Started Programming</text>
+    </g>
+    
+    <!-- Right Text -->
+    <g transform="translate(440, 24)">
+      <text x="0" y="0" class="timeline-tag">INITIATION</text>
+      <text x="0" y="18" class="timeline-desc">First line of code, discovering python.</text>
+    </g>
+  </g>
+
+  <!-- ================= MILESTONE 2: AI Resume Screening ================= -->
+  <g transform="translate(0, 150)">
+    <!-- Central Node -->
+    <circle cx="400" cy="30" r="10" fill="#0D0E11" stroke="#FF5722" stroke-width="3" />
+    <circle cx="400" cy="30" r="4" fill="#FF5722" />
+    
+    <!-- Right Card -->
+    <g transform="translate(440, 0)">
+      <rect width="300" height="70" rx="8" fill="url(#cardGrad)" stroke="url(#cardBorder)" stroke-width="1" />
+      <text x="20" y="25" class="timeline-year">2025</text>
+      <text x="20" y="48" class="timeline-title">AI Resume Screening</text>
+    </g>
+    
+    <!-- Left Text -->
+    <g transform="translate(360, 24)">
+      <text x="0" y="0" class="timeline-tag" text-anchor="end">FIRST PRODUCT</text>
+      <text x="0" y="18" class="timeline-desc" text-anchor="end">NLP &amp; Machine learning parsing engine.</text>
+    </g>
+  </g>
+
+  <!-- ================= MILESTONE 3: Business Websites ================= -->
+  <g transform="translate(0, 250)">
+    <!-- Central Node -->
+    <circle cx="400" cy="30" r="10" fill="#0D0E11" stroke="#FCD34D" stroke-width="3" />
+    <circle cx="400" cy="30" r="4" fill="#FCD34D" />
+    
+    <!-- Left Card -->
+    <g transform="translate(60, 0)">
+      <rect width="300" height="70" rx="8" fill="url(#cardGrad)" stroke="url(#cardBorder)" stroke-width="1" />
+      <text x="20" y="25" class="timeline-year" fill="#FCD34D">2025</text>
+      <text x="20" y="48" class="timeline-title">Business Websites</text>
+    </g>
+    
+    <!-- Right Text -->
+    <g transform="translate(440, 24)">
+      <text x="0" y="0" class="timeline-tag" fill="#FCD34D">PRODUCTION</text>
+      <text x="0" y="18" class="timeline-desc">Building client sites with premium design rules.</text>
+    </g>
+  </g>
+
+  <!-- ================= MILESTONE 4: Started i2flow ================= -->
+  <g transform="translate(0, 350)">
+    <!-- Central Node -->
+    <circle cx="400" cy="30" r="10" fill="#0D0E11" stroke="#FCD34D" stroke-width="3" />
+    <circle cx="400" cy="30" r="4" fill="#FCD34D" />
+    
+    <!-- Right Card -->
+    <g transform="translate(440, 0)">
+      <rect width="300" height="70" rx="8" fill="url(#cardGrad)" stroke="url(#cardBorder)" stroke-width="1" />
+      <text x="20" y="25" class="timeline-year" fill="#FCD34D">2025</text>
+      <text x="20" y="48" class="timeline-title">Started i2flow</text>
+    </g>
+    
+    <!-- Left Text -->
+    <g transform="translate(360, 24)">
+      <text x="0" y="0" class="timeline-tag" fill="#FCD34D" text-anchor="end">FOUNDER</text>
+      <text x="0" y="18" class="timeline-desc" text-anchor="end">Product studio to build practical AI solutions.</text>
+    </g>
+  </g>
+
+  <!-- ================= MILESTONE 5: Building AI Products (NOW) ================= -->
+  <g transform="translate(0, 450)">
+    <!-- Central Node -->
+    <circle cx="400" cy="30" r="10" fill="#0D0E11" stroke="#10B981" stroke-width="3" />
+    <!-- Pulse Effect -->
+    <circle class="glowing-node" cx="400" cy="30" r="6" fill="none" stroke="#10B981" stroke-width="2" filter="url(#glow)" />
+    
+    <!-- Left Card -->
+    <g transform="translate(60, 0)">
+      <rect width="300" height="70" rx="8" fill="url(#cardGrad)" stroke="#10B981" stroke-opacity="0.3" stroke-width="1" />
+      <text x="20" y="25" class="timeline-year" fill="#10B981">ACTIVE</text>
+      <text x="20" y="48" class="timeline-title">Building AI Products</text>
+    </g>
+    
+    <!-- Right Text -->
+    <g transform="translate(440, 24)">
+      <text x="0" y="0" class="timeline-tag" fill="#10B981">CURRENT</text>
+      <text x="0" y="18" class="timeline-desc">Iterating on developer tools &amp; ML platforms.</text>
+    </g>
+  </g>
+
+  <!-- ================= MILESTONE 6: Future AI Startup ================= -->
+  <g transform="translate(0, 550)">
+    <!-- Central Node -->
+    <circle cx="400" cy="30" r="8" fill="#0D0E11" stroke="#4B5563" stroke-width="2" />
+    
+    <!-- Right Card -->
+    <g transform="translate(440, 0)">
+      <rect width="300" height="70" rx="8" fill="url(#cardGrad)" stroke="url(#cardBorder)" stroke-width="1" />
+      <text x="20" y="25" class="timeline-year" fill="#6B7280">FUTURE</text>
+      <text x="20" y="48" class="timeline-title" fill="#E5E7EB">AI Startup</text>
+    </g>
+    
+    <!-- Left Text -->
+    <g transform="translate(360, 24)">
+      <text x="0" y="0" class="timeline-tag" fill="#6B7280" text-anchor="end">VISION</text>
+      <text x="0" y="18" class="timeline-desc" text-anchor="end">Scaling i2flow into a global tech operation.</text>
+    </g>
+  </g>
+</svg>

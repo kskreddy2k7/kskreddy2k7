@@ -1,0 +1,157 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380" width="100%" height="100%">
+  <defs>
+    <!-- Fonts -->
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&amp;display=swap');
+      
+      .terminal-text {
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 14px;
+        fill: #E5E7EB;
+      }
+      .orange-text {
+        fill: #FF5722;
+        font-weight: bold;
+      }
+      .gold-text {
+        fill: #FCD34D;
+        font-weight: bold;
+      }
+      .green-text {
+        fill: #10B981;
+        font-weight: bold;
+      }
+      .gray-text {
+        fill: #6B7280;
+      }
+      
+      /* Animation Timing */
+      @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(5px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+      @keyframes progressBar {
+        0% { stroke-dashoffset: 240; }
+        100% { stroke-dashoffset: 0; }
+      }
+      @keyframes blink {
+        0%, 49% { opacity: 1; }
+        50%, 100% { opacity: 0; }
+      }
+
+      .line-1 { animation: fadeIn 0.4s ease-out forwards; opacity: 0; }
+      .line-2 { animation: fadeIn 0.4s ease-out 0.6s forwards; opacity: 0; }
+      .line-3 { animation: fadeIn 0.4s ease-out 2.8s forwards; opacity: 0; }
+      .line-4 { animation: fadeIn 0.4s ease-out 3.1s forwards; opacity: 0; }
+      .line-5 { animation: fadeIn 0.4s ease-out 3.4s forwards; opacity: 0; }
+      .line-6 { animation: fadeIn 0.4s ease-out 3.7s forwards; opacity: 0; }
+      .line-7 { animation: fadeIn 0.4s ease-out 4.0s forwards; opacity: 0; }
+      .line-8 { animation: fadeIn 0.4s ease-out 4.3s forwards; opacity: 0; }
+      
+      .progress-fill {
+        stroke-dasharray: 240;
+        stroke-dashoffset: 240;
+        animation: progressBar 2.0s cubic-bezier(0.4, 0, 0.2, 1) 0.8s forwards;
+      }
+      
+      .cursor {
+        animation: blink 1s infinite;
+        fill: #FF5722;
+      }
+
+      /* Glow effect */
+      .glow-layer {
+        filter: drop-shadow(0 0 12px rgba(255, 87, 34, 0.15));
+      }
+    </style>
+
+    <!-- Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0E1015"/>
+      <stop offset="100%" stop-color="#08090C"/>
+    </linearGradient>
+
+    <linearGradient id="glassBorder" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.02"/>
+    </linearGradient>
+
+    <linearGradient id="loaderGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF5722"/>
+      <stop offset="100%" stop-color="#FCD34D"/>
+    </linearGradient>
+    
+    <radialGradient id="screenAmbient" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#FF5722" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Terminal Window Container (Glassmorphic) -->
+  <rect x="10" y="10" width="780" height="360" rx="16" fill="url(#bgGrad)" stroke="url(#glassBorder)" stroke-width="1.5" class="glow-layer" />
+  
+  <!-- Screen Ambient Light overlay -->
+  <rect x="11" y="11" width="778" height="358" rx="15" fill="url(#screenAmbient)" pointer-events="none" />
+
+  <!-- Window Header Bar -->
+  <rect x="10" y="10" width="780" height="38" rx="16" fill="#FFFFFF" fill-opacity="0.02" />
+  <line x1="10" y1="48" x2="790" y2="48" stroke="#FFFFFF" stroke-opacity="0.05" stroke-width="1" />
+  
+  <!-- Mac-Style Window Buttons -->
+  <circle cx="32" cy="29" r="6" fill="#EF4444" opacity="0.8" />
+  <circle cx="50" cy="29" r="6" fill="#F59E0B" opacity="0.8" />
+  <circle cx="68" cy="29" r="6" fill="#10B981" opacity="0.8" />
+
+  <!-- Terminal Title -->
+  <text x="400" y="34" font-family="'JetBrains Mono', monospace" font-size="11" fill="#6B7280" text-anchor="middle" letter-spacing="0.1em">SYSTEM BOOT CONSOLE — kskreddy2k7@AI-OS</text>
+
+  <!-- Terminal Content Lines -->
+  <g transform="translate(40, 85)" class="terminal-text">
+    
+    <!-- Line 1: Boot Command -->
+    <g class="line-1">
+      <text x="0" y="0"><tspan class="gray-text">kskreddy2k7 @ AI-OS:~$</tspan> ./boot_sequence.sh --verbose</text>
+    </g>
+    
+    <!-- Line 2: Loading State -->
+    <g class="line-2">
+      <text x="0" y="30">SYSTEM BOOT IN PROGRESS</text>
+      <!-- Base Loader Bar -->
+      <rect x="0" y="45" width="240" height="12" rx="3" fill="#1F2937" />
+      <!-- Animated Loader Bar -->
+      <line x1="0" y1="51" x2="240" y2="51" stroke="url(#loaderGrad)" stroke-width="12" stroke-linecap="round" class="progress-fill" />
+      <text x="255" y="55" class="orange-text">100%</text>
+    </g>
+    
+    <!-- Line 3: System Status -->
+    <g class="line-3">
+      <text x="0" y="100">SYSTEM STATUS: <tspan class="green-text">● ONLINE</tspan></text>
+    </g>
+
+    <!-- Line 4: AI Engineer check -->
+    <g class="line-4">
+      <text x="0" y="125">AI ENGINEER CHECK: <tspan class="green-text">[ ACTIVE ]</tspan></text>
+    </g>
+
+    <!-- Line 5: Full Stack developer check -->
+    <g class="line-5">
+      <text x="0" y="150">FULL STACK DEVELOPER CHECK: <tspan class="green-text">[ ACTIVE ]</tspan></text>
+    </g>
+
+    <!-- Line 6: Current Mission -->
+    <g class="line-6">
+      <text x="0" y="185">CURRENT MISSION: <tspan class="orange-text">Building i2flow</tspan></text>
+    </g>
+
+    <!-- Line 7: Next Target -->
+    <g class="line-7">
+      <text x="0" y="210">NEXT TARGET: <tspan class="gold-text">AI Startup</tspan></text>
+    </g>
+
+    <!-- Line 8: Interactive prompt wait -->
+    <g class="line-8">
+      <text x="0" y="245"><tspan class="gray-text">kskreddy2k7 @ AI-OS:~$</tspan> <tspan class="cursor">█</tspan></text>
+    </g>
+
+  </g>
+</svg>

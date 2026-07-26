@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 180" width="100%" height="100%">
+  <defs>
+    <!-- Fonts -->
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&amp;family=JetBrains+Mono:wght@400;700&amp;display=swap');
+      
+      .mission-title {
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 11px;
+        fill: #FF5722;
+        font-weight: bold;
+        letter-spacing: 0.4em;
+      }
+      .mission-text {
+        font-family: 'Inter', sans-serif;
+        font-weight: 800;
+        font-size: 28px;
+        fill: #FFFFFF;
+      }
+      .orange-glow {
+        fill: url(#orangeGrad);
+      }
+      
+      /* Subtle pulsation animation */
+      @keyframes slowPulse {
+        0% { opacity: 0.15; }
+        50% { opacity: 0.35; }
+        100% { opacity: 0.15; }
+      }
+      .ambient-glow {
+        animation: slowPulse 6s ease-in-out infinite;
+      }
+    </style>
+
+    <!-- Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0E1015"/>
+      <stop offset="100%" stop-color="#090A0C"/>
+    </linearGradient>
+
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF5722"/>
+      <stop offset="30%" stop-color="#2E3039"/>
+      <stop offset="70%" stop-color="#2E3039"/>
+      <stop offset="100%" stop-color="#FCD34D"/>
+    </linearGradient>
+    
+    <linearGradient id="orangeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF5722"/>
+      <stop offset="100%" stop-color="#FCD34D"/>
+    </linearGradient>
+    
+    <radialGradient id="cardAmbient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FF5722" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Glow Filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Card Body with Gradient Border -->
+  <rect x="10" y="10" width="780" height="160" rx="16" fill="url(#bgGrad)" stroke="url(#borderGrad)" stroke-width="1.5" />
+  
+  <!-- Ambient Inner Glow -->
+  <rect class="ambient-glow" x="11" y="11" width="778" height="158" rx="15" fill="url(#cardAmbient)" pointer-events="none" />
+
+  <!-- Technical Overlay Grids -->
+  <line x1="30" y1="10" x2="30" y2="170" stroke="#FFFFFF" stroke-opacity="0.03" stroke-width="1" />
+  <line x1="770" y1="10" x2="770" y2="170" stroke="#FFFFFF" stroke-opacity="0.03" stroke-width="1" />
+
+  <!-- Top-Right Tech Badge -->
+  <g transform="translate(685, 30)">
+    <rect width="85" height="22" rx="4" fill="#1F2937" opacity="0.6" stroke="#FF5722" stroke-opacity="0.3" stroke-width="1" />
+    <text x="42.5" y="14" font-family="'JetBrains Mono', monospace" font-size="9" fill="#FCD34D" text-anchor="middle" font-weight="bold">TARGET 0x01</text>
+  </g>
+
+  <!-- Left Icon Accent -->
+  <g transform="translate(45, 45)" filter="url(#glow)">
+    <circle cx="15" cy="15" r="15" fill="#FF5722" fill-opacity="0.2" />
+    <path d="M 15 7 L 15 23 M 7 15 L 23 15" stroke="url(#orangeGrad)" stroke-width="2.5" stroke-linecap="round" />
+  </g>
+
+  <!-- Text Content -->
+  <g transform="translate(90, 52)">
+    <text x="0" y="0" class="mission-title">CORE STATEMENT // MISSION</text>
+    <text x="0" y="38" class="mission-text">
+      Building <tspan fill="url(#orangeGrad)">AI products</tspan> that solve
+    </text>
+    <text x="0" y="74" class="mission-text">
+      real-world problems.
+    </text>
+  </g>
+
+  <!-- Bottom Details -->
+  <text x="90" y="144" font-family="'JetBrains Mono', monospace" font-size="9" fill="#4B5563">LATENCY: 0ms // HOST: i2flow.core</text>
+  <circle cx="285" cy="141" r="2.5" fill="#10B981" />
+  <text x="294" y="144" font-family="'JetBrains Mono', monospace" font-size="9" fill="#10B981" font-weight="bold">PIPELINE ACTIVE</text>
+</svg>

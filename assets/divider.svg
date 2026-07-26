@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 24" width="100%" height="24">
+  <defs>
+    <!-- Glowing orange Sunrise gradient -->
+    <linearGradient id="dividerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF5722" stop-opacity="0"/>
+      <stop offset="15%" stop-color="#FF5722" stop-opacity="0.1"/>
+      <stop offset="45%" stop-color="#FF5722" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#FCD34D" stop-opacity="1"/>
+      <stop offset="55%" stop-color="#FF5722" stop-opacity="0.8"/>
+      <stop offset="85%" stop-color="#FF5722" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#FF5722" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Glow Filter -->
+    <filter id="glow" x="-20%" y="-100%" width="140%" height="300%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Horizontal divider line -->
+  <line x1="0" y1="12" x2="1000" y2="12" stroke="url(#dividerGrad)" stroke-width="1.5" filter="url(#glow)" />
+  
+  <!-- Central Tech Elements -->
+  <g transform="translate(500, 12)">
+    <!-- Central Glow Ring -->
+    <circle cx="0" cy="0" r="6" fill="#0D0E11" stroke="#FF5722" stroke-width="1.5" filter="url(#glow)" />
+    <circle cx="0" cy="0" r="2.5" fill="#FCD34D" />
+    
+    <!-- Left Wing -->
+    <path d="M -12 -3 L -24 0 L -12 3 Z" fill="#FF5722" opacity="0.6" />
+    
+    <!-- Right Wing -->
+    <path d="M 12 -3 L 24 0 L 12 3 Z" fill="#FF5722" opacity="0.6" />
+  </g>
+</svg>
