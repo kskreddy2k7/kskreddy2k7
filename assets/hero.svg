@@ -292,12 +292,12 @@
     
     <!-- Code on Screen (Mock) -->
     <g fill="#4B5563" font-family="'JetBrains Mono', monospace" font-size="6" transform="translate(645, 142)">
-      <text x="0" y="0" fill="#FF5722">import <tspan fill="#FFFFFF">TensorFlow</tspan> as <tspan fill="#FCD34D">tf</tspan></text>
-      <text x="0" y="10" fill="#6B7280"># Initialize AI Model</text>
-      <text x="0" y="20" fill="#10B981">class <tspan fill="#FFFFFF">i2flowAgent</tspan>(Model):</text>
-      <text x="10" y="30">def __init__(self):</text>
-      <text x="20" y="40" fill="#FCD34D">super().__init__()</text>
-      <text x="20" y="50" fill="#FF5722">self.flow = Dense(128)</text>
+      <text x="0" y="0" fill="#FF5722">import <tspan fill="#FFFFFF">openai</tspan></text>
+      <text x="0" y="10" fill="#6B7280"># Initialize Agent</text>
+      <text x="0" y="20" fill="#10B981">client = <tspan fill="#FFFFFF">openai.OpenAI()</tspan></text>
+      <text x="0" y="30" fill="#FCD34D">response = client.chat.completions.create(</text>
+      <text x="10" y="40" fill="#E5E7EB">model="gpt-4o",</text>
+      <text x="10" y="50" fill="#FF5722">messages=[{"role": "user"}]</text>
       
       <!-- Graphical Network overlay on screen -->
       <line x1="120" y1="10" x2="160" y2="40" stroke="#FF5722" stroke-width="0.5" opacity="0.6" />

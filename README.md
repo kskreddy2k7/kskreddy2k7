@@ -178,41 +178,53 @@ const developer: Profile = {
 <div align="center">
   <img width="100%" alt="Section Divider" src="assets/divider.svg">
   <h3 style="margin-top: 15px; margin-bottom: 5px;">TECHNOLOGY MATRIX</h3>
-  <p style="margin-top: 0; margin-bottom: 12px;"><em>Core capabilities of the runtime environment</em></p>
+  <p style="margin-top: 0; margin-bottom: 12px;"><em>Core capabilities from real-world production experience</em></p>
 
   <table width="100%" cellspacing="6" cellpadding="0">
     <tr>
-      <td width="33%" valign="top" align="center" style="background: #0e1015; border: 1px solid #2e3039; border-radius: 8px; padding: 10px 5px;">
+      <!-- Programming -->
+      <td colspan="3" width="25%" valign="top" align="center" style="background: #0e1015; border: 1px solid #2e3039; border-radius: 8px; padding: 10px 4px;">
         <img height="20" src="https://img.shields.io/badge/PROGRAMMING-0d0e11?style=flat-square&logo=codeforces&logoColor=FF5722&labelColor=0d0e11">
         <div style="height: 6px;"></div>
-        <img height="38" src="https://skillicons.dev/icons?i=python,typescript,javascript,cpp&theme=dark">
+        <img height="44" src="https://skillicons.dev/icons?i=python,java,js,html,css&theme=dark">
       </td>
-      <td width="33%" valign="top" align="center" style="background: #0e1015; border: 1px solid #2e3039; border-radius: 8px; padding: 10px 5px;">
-        <img height="20" src="https://img.shields.io/badge/AI%20%2F%20ML-0d0e11?style=flat-square&logo=tensorflow&logoColor=FCD34D&labelColor=0d0e11">
+      <!-- AI & ML -->
+      <td colspan="3" width="25%" valign="top" align="center" style="background: #0e1015; border: 1px solid #2e3039; border-radius: 8px; padding: 10px 4px;">
+        <img height="20" src="https://img.shields.io/badge/AI%20%26%20ML-0d0e11?style=flat-square&logo=openai&logoColor=FCD34D&labelColor=0d0e11">
         <div style="height: 6px;"></div>
-        <img height="38" src="https://skillicons.dev/icons?i=tensorflow,pytorch,sklearn,pandas&theme=dark">
+        <img height="44" src="https://skillicons.dev/icons?i=openai,sklearn,pandas,numpy&theme=dark">
       </td>
-      <td width="33%" valign="top" align="center" style="background: #0e1015; border: 1px solid #2e3039; border-radius: 8px; padding: 10px 5px;">
+      <!-- Frontend -->
+      <td colspan="3" width="25%" valign="top" align="center" style="background: #0e1015; border: 1px solid #2e3039; border-radius: 8px; padding: 10px 4px;">
         <img height="20" src="https://img.shields.io/badge/FRONTEND-0d0e11?style=flat-square&logo=react&logoColor=FF5722&labelColor=0d0e11">
         <div style="height: 6px;"></div>
-        <img height="38" src="https://skillicons.dev/icons?i=react,html,css,tailwind&theme=dark">
+        <img height="44" src="https://skillicons.dev/icons?i=react,bootstrap,tailwind&theme=dark">
+      </td>
+      <!-- Backend -->
+      <td colspan="3" width="25%" valign="top" align="center" style="background: #0e1015; border: 1px solid #2e3039; border-radius: 8px; padding: 10px 4px;">
+        <img height="20" src="https://img.shields.io/badge/BACKEND-0d0e11?style=flat-square&logo=flask&logoColor=FCD34D&labelColor=0d0e11">
+        <div style="height: 6px;"></div>
+        <img height="44" src="https://skillicons.dev/icons?i=flask,nodejs,express&theme=dark">
       </td>
     </tr>
     <tr>
-      <td width="33%" valign="top" align="center" style="background: #0e1015; border: 1px solid #2e3039; border-radius: 8px; padding: 10px 5px;">
-        <img height="20" src="https://img.shields.io/badge/BACKEND-0d0e11?style=flat-square&logo=nodedotjs&logoColor=FCD34D&labelColor=0d0e11">
+      <!-- Database & Services -->
+      <td colspan="4" width="33.3%" valign="top" align="center" style="background: #0e1015; border: 1px solid #2e3039; border-radius: 8px; padding: 10px 4px;">
+        <img height="20" src="https://img.shields.io/badge/SERVICES%20%26%20DB-0d0e11?style=flat-square&logo=supabase&logoColor=FF5722&labelColor=0d0e11">
         <div style="height: 6px;"></div>
-        <img height="38" src="https://skillicons.dev/icons?i=nodejs,express,flask,fastapi&theme=dark">
+        <img height="44" src="https://skillicons.dev/icons?i=supabase,firebase,sqlite&theme=dark">
       </td>
-      <td width="33%" valign="top" align="center" style="background: #0e1015; border: 1px solid #2e3039; border-radius: 8px; padding: 10px 5px;">
-        <img height="20" src="https://img.shields.io/badge/TOOLS-0d0e11?style=flat-square&logo=git&logoColor=FF5722&labelColor=0d0e11">
+      <!-- Development Tools -->
+      <td colspan="4" width="33.3%" valign="top" align="center" style="background: #0e1015; border: 1px solid #2e3039; border-radius: 8px; padding: 10px 4px;">
+        <img height="20" src="https://img.shields.io/badge/DEV%20TOOLS-0d0e11?style=flat-square&logo=git&logoColor=FCD34D&labelColor=0d0e11">
         <div style="height: 6px;"></div>
-        <img height="38" src="https://skillicons.dev/icons?i=git,github,vscode,postman&theme=dark">
+        <img height="44" src="https://skillicons.dev/icons?i=git,github,vscode,postman,figma&theme=dark">
       </td>
-      <td width="33%" valign="top" align="center" style="background: #0e1015; border: 1px solid #2e3039; border-radius: 8px; padding: 10px 5px;">
-        <img height="20" src="https://img.shields.io/badge/CLOUD-0d0e11?style=flat-square&logo=vercel&logoColor=FCD34D&labelColor=0d0e11">
+      <!-- Deployment -->
+      <td colspan="4" width="33.3%" valign="top" align="center" style="background: #0e1015; border: 1px solid #2e3039; border-radius: 8px; padding: 10px 4px;">
+        <img height="20" src="https://img.shields.io/badge/DEPLOYMENT-0d0e11?style=flat-square&logo=vercel&logoColor=FF5722&labelColor=0d0e11">
         <div style="height: 6px;"></div>
-        <img height="38" src="https://skillicons.dev/icons?i=vercel,githubactions,docker,firebase&theme=dark">
+        <img height="44" src="https://skillicons.dev/icons?i=vercel,netlify,github&theme=dark">
       </td>
     </tr>
   </table>
